@@ -6,7 +6,7 @@ namespace temp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("56982326");
             
             string input = Console.ReadLine();
             int number = 0;
