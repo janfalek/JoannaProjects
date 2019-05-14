@@ -22,7 +22,7 @@ namespace temp1
                 while(number > 0)
                 {
                     Console.WriteLine("jojo");
-                }
+             }
                 Console.ReadKey();
                 }
         
