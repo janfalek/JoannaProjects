@@ -18,7 +18,11 @@ namespace temp1
             else
             {
                 Console.WriteLine("Was not ok input was: {0}", input);
-             }
+            }
+             while(number > 0)
+            {
+                Console.WriteLine("jojo");
+            }
                 Console.ReadKey();
                 }
         
@@ -31,9 +35,8 @@ namespace temp1
     {
         public int Value;
 
-        public static implicit operator int(Minutes min)
-        {
-            return min.Value;
-        }
+        public static implicit operator int(Minutes min) => min.Value;
     }
+
+    
 
