@@ -19,7 +19,10 @@ namespace temp1
             {
                 Console.WriteLine("Was not ok input was: {0}", input);
             }    
-                
+                while(number > 0)
+                {
+                    Console.WriteLine("jojo");
+             }
                 Console.ReadKey();
                 }
         
